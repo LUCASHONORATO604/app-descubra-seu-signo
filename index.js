@@ -9,7 +9,7 @@ botaoo.addEventListener("click", verificar)
 
 function verificar() {
     let digitado1 = Number(entrada1.value)
-    let digitado2 = entrada2.value.toLowerCase()
+    let digitado2 = entrada2.value.toLowerCase().trim();
 
     // JANEIRO
     if (digitado1 >= 1 && digitado1 < 20 && digitado2 == "janeiro") {
@@ -47,7 +47,7 @@ function verificar() {
         return
     }
     if (digitado1 >= 20 && digitado1 <= 30 && digitado2 == "abril") {
-        paragrafo.innerHTML = " signo  deTouro";
+        paragrafo.innerHTML = " signo  de Touro";
         return
     }
 
@@ -63,7 +63,7 @@ function verificar() {
 
     // JUNHO
     if (digitado1 >= 1 && digitado1 < 21 && digitado2 == "junho") {
-        paragrafo.innerHTML = "signo  deGêmeos";
+        paragrafo.innerHTML = "signo  de Gêmeos";
         return
     }
     if (digitado1 >= 21 && digitado1 <= 30 && digitado2 == "junho") {
