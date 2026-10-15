@@ -13,121 +13,121 @@ function verificar() {
 
     // JANEIRO
     if (digitado1 >= 1 && digitado1 < 20 && digitado2 == "janeiro") {
-        paragrafo.innerHTML = "voce e do signo Capricórnio";
+        paragrafo.innerHTML = "signo de Capricórnio";
         return
     }
     if (digitado1 >= 20 && digitado1 <= 31 && digitado2 == "janeiro") {
-        paragrafo.innerHTML = "voce e do signo Aquário";
+        paragrafo.innerHTML = "signo de Aquário";
         return
     }
 
     // FEVEREIRO
     if (digitado1 >= 1 && digitado1 < 19 && digitado2 == "fevereiro") {
-        paragrafo.innerHTML = "voce e do signo Aquário";
+        paragrafo.innerHTML = "signo de Aquário";
         return
     }
     if (digitado1 >= 19 && digitado1 <= 29 && digitado2 == "fevereiro") {
-        paragrafo.innerHTML = "voce e do signo Peixes";
+        paragrafo.innerHTML = "signo de Peixes";
         return
     }
 
     // MARÇO
     if (digitado1 >= 1 && digitado1 < 21 && digitado2 == "março") {
-        paragrafo.innerHTML = "voce e do signo Peixes";
+        paragrafo.innerHTML = "signo  de Peixes";
         return
     }
     if (digitado1 >= 21 && digitado1 <= 31 && digitado2 == "março") {
-        paragrafo.innerHTML = "voce e do signo Áries";
+        paragrafo.innerHTML = "signo de Áries";
         return
     }
 
     // ABRIL
     if (digitado1 >= 1 && digitado1 < 20 && digitado2 == "abril") {
-        paragrafo.innerHTML = "voce e do signo Áries";
+        paragrafo.innerHTML = "signo de Áries";
         return
     }
     if (digitado1 >= 20 && digitado1 <= 30 && digitado2 == "abril") {
-        paragrafo.innerHTML = "voce e do signo Touro";
+        paragrafo.innerHTML = " signo  deTouro";
         return
     }
 
     // MAIO
     if (digitado1 >= 1 && digitado1 < 21 && digitado2 == "maio") {
-        paragrafo.innerHTML = "voce e do signo Touro";
+        paragrafo.innerHTML = "signo de Touro";
         return
     }
     if (digitado1 >= 21 && digitado1 <= 31 && digitado2 == "maio") {
-        paragrafo.innerHTML = "voce e do signo Gêmeos";
+        paragrafo.innerHTML = "signo de Gêmeos";
         return
     }
 
     // JUNHO
     if (digitado1 >= 1 && digitado1 < 21 && digitado2 == "junho") {
-        paragrafo.innerHTML = "voce e do signo Gêmeos";
+        paragrafo.innerHTML = "signo  deGêmeos";
         return
     }
     if (digitado1 >= 21 && digitado1 <= 30 && digitado2 == "junho") {
-        paragrafo.innerHTML = "voce e do signo Câncer";
+        paragrafo.innerHTML = "signo de Câncer";
         return
     }
 
     // JULHO
     if (digitado1 >= 1 && digitado1 < 23 && digitado2 == "julho") {
-        paragrafo.innerHTML = "voce e do signo Câncer";
+        paragrafo.innerHTML = "signo de Câncer";
         return
     }
     if (digitado1 >= 23 && digitado1 <= 31 && digitado2 == "julho") {
-        paragrafo.innerHTML = "voce e do signo Leão";
+        paragrafo.innerHTML = "signo de Leão";
         return
     }
 
     // AGOSTO
     if (digitado1 >= 1 && digitado1 < 23 && digitado2 == "agosto") {
-        paragrafo.innerHTML = "voce e do signo Leão";
+        paragrafo.innerHTML = " signo de Leão";
         return
     }
     if (digitado1 >= 23 && digitado1 <= 31 && digitado2 == "agosto") {
-        paragrafo.innerHTML = "voce e do signo Virgem";
+        paragrafo.innerHTML = "signo de Virgem";
         return
     }
 
     // SETEMBRO
     if (digitado1 >= 1 && digitado1 < 23 && digitado2 == "setembro") {
-        paragrafo.innerHTML = "voce e do signo Virgem";
+        paragrafo.innerHTML = "signo  de Virgem";
         return
     }
     if (digitado1 >= 23 && digitado1 <= 30 && digitado2 == "setembro") {
-        paragrafo.innerHTML = "voce e do signo Libra";
+        paragrafo.innerHTML = "signo de Libra";
         return
     }
 
     // OUTUBRO
     if (digitado1 >= 1 && digitado1 < 23 && digitado2 == "outubro") {
-        paragrafo.innerHTML = "voce e do signo Libra";
+        paragrafo.innerHTML = " signo de Libra";
         return
     }
     if (digitado1 >= 23 && digitado1 <= 31 && digitado2 == "outubro") {
-        paragrafo.innerHTML = "voce e do signo Escorpião";
+        paragrafo.innerHTML = " signo de Escorpião";
         return
     }
 
     // NOVEMBRO
     if (digitado1 >= 1 && digitado1 < 22 && digitado2 == "novembro") {
-        paragrafo.innerHTML = "voce e do signo Escorpião";
+        paragrafo.innerHTML = " signo  de Escorpião";
         return
     }
     if (digitado1 >= 22 && digitado1 <= 30 && digitado2 == "novembro") {
-        paragrafo.innerHTML = "voce e do signo Sagitário";
+        paragrafo.innerHTML = "signo de  Sagitário";
         return
     }
 
     // DEZEMBRO
     if (digitado1 >= 1 && digitado1 < 22 && digitado2 == "dezembro") {
-        paragrafo.innerHTML = "voce e do signo Sagitário";
+        paragrafo.innerHTML = " signo de Sagitário";
         return
     }
     if (digitado1 >= 22 && digitado1 <= 31 && digitado2 == "dezembro") {
-        paragrafo.innerHTML = "voce e do signo Capricórnio";
+        paragrafo.innerHTML = " signo de Capricórnio";
         return
     }
     
