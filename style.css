@@ -24,16 +24,20 @@ body {
 
 
 h1 {
-  margin:40px 200px 0px 0px;
-    font-size: 50px;text-align: center;
+    margin: 40px 200px 0px 0px;
+    font-size: 50px;
+    text-align: center;
 }
 
 main {
     margin-top: 10px;
     height: 500px;
     width: 420px;
-    position: relative;max-width: 1200px;right: 100px;top: 20px;
-   
+    position: relative;
+    max-width: 1200px;
+    right: 100px;
+    top: 20px;
+
     border: 1px solid black;
 
     background: rgba(255, 255, 255, 0.2);
@@ -45,7 +49,9 @@ main {
     backdrop-filter: blur(3px);
     /* Desfoque do fundo atrás do elemento */
     -webkit-backdrop-filter: blur(5.6);
-    /* Compatibilidade com Safari */margin: 0 auto;border: none;
+    /* Compatibilidade com Safari */
+    margin: 0 auto;
+    border: none;
     /* Borda fina clara */
 }
 
@@ -121,12 +127,12 @@ button {
 
     main {
         position: relative;
-        left: 60px;
-        width: 300px;
+        left: 10px;
+        width: 300px;height: 450px;
     }
 
     h1 {
-        font-size: 30px;
+        font-size: 40px;color: white;margin: 10px 0px 0px 0px;
     }
 
     #para {
