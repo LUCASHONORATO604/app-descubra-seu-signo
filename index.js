@@ -3,7 +3,7 @@ let entrada1 = document.querySelector("#dia");
 let entrada2 = document.querySelector("#mes");
 let paragrafo = document.querySelector("#para")
 
-//paragrafo.innerHTML = ""
+paragrafo.innerHTML = ""
 
 botaoo.addEventListener("click", verificar)
 
@@ -132,14 +132,8 @@ function verificar() {
     }
     
     // Caso a data digitada seja inválida ou o mês esteja escrito errado
-    paragrafo.innerHTML = "Data ou mês inválido. Verifique o que digitou.";
+    paragrafo.innerHTML = "Data ou mês inválido. ou campo vazio";
 }
-
-
-
-
-
-
 
 
 
