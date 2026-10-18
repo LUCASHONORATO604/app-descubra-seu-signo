@@ -56,12 +56,12 @@ main {
 }
 
 .paragrafo {
-    margin: 0px 0px 0px 50px;
+    margin: 10px 0px 0px 140px;
     color: white;
     z-index: 1;
     position: absolute;
-    font-size: 35px;
-    letter-spacing: 2px;
+    font-size: 50px;
+    letter-spacing: 3px;
 
 
 }
@@ -136,7 +136,7 @@ button {
     }
 
     #para {
-        font-size: 27px;
+        font-size: 35px;margin: 10px 0px 0px 100px;letter-spacing: 3px;
 
     }
 
@@ -154,7 +154,7 @@ button {
         font-size: 20px;
         position: absolute;
         left: 155px;
-        letter-spacing: 2px;
+        letter-spacing: 3px;
     }
 
     #botao {
